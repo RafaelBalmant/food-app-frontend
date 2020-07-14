@@ -1,8 +1,11 @@
 /* eslint-disable import/prefer-default-export */
-import styled from 'styled-components';
-import { primaryColors } from '../../../helpers/colors.json';
+import styled from "styled-components";
+import Container from "@material-ui/core/Container";
+import { primaryColors, secondaryColors } from "../../../helpers/colors.json";
 
-export const Container = styled('div')`
-    background-color: ${primaryColors.first};
-    color: ${primaryColors.second}
+export const MenuContainer = styled(Container)`
+  height: 25vh;
+  margin: auto;
+  background-color: #f5f3f4;
+  color: ${primaryColors.first};
 `;
