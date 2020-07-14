@@ -6,7 +6,7 @@ import FormControl from "@material-ui/core/FormControl";
 import { primaryColors, secondaryColors } from "../../helpers/colors.json";
 
 export const FormContainer = styled(Container)`
-  background-color: ${primaryColors.first} !important;
+  background-color: #fafafa;
   height: auto;
   width: auto;
   display: flex;
@@ -18,6 +18,7 @@ export const FlexForm = styled.form`
   background-color: white;
   display: flex;
   flex-direction: column;
+  margin: 0 15% 0 15%;
   padding: 0 10% 0 10%;
 
   h1 {

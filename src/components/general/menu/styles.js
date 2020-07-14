@@ -5,7 +5,6 @@ import { primaryColors, secondaryColors } from "../../../helpers/colors.json";
 
 export const MenuContainer = styled(Container)`
   height: 25vh;
-  margin: auto;
-  background-color: #f5f3f4;
+  background-color: #fafafa;
   color: ${primaryColors.first};
 `;

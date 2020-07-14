@@ -21,8 +21,10 @@ const useStyles = makeStyles((theme) => ({
   },
   logo: {
     justifyContent: "center",
+    marginTop: "20px",
     fontSize: "2em",
     color: primaryColors.second,
+    fontFamily: "Galada, cursive",
   },
   menu: {
     justifyContent: "end",
